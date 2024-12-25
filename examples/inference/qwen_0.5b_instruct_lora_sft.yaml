@@ -1,0 +1,5 @@
+model_name_or_path: models/Qwen/Qwen2___5-0___5B-Instruct
+adapter_name_or_path: saves/Qwen2-0.5B/lora/train_2024-12-25-11-28-24
+template: qwen
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true
